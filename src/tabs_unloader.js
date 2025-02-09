@@ -129,9 +129,9 @@ function filterTabs(tabs)
         const values = await getAllVariablesValuesAsMap();
         for(const tab of tabs)
         {
-            const isTabMarked = await isTabMarked(tab);
+            const isMarked = await isTabMarked(tab);
             const isTabIncludedInLimit = (
-                ( isTabMarked &&  values.get(INCLUDE_MARKED_TABS_IN_LIMIT) ) ||
+                ( isMarked &&  values.get(INCLUDE_MARKED_TABS_IN_LIMIT) ) ||
                 ( tab.pinned  && !values.get(ALLOW_PINNED_TABS_UNLOADING) &&
                                   values.get(INCLUDE_PINNED_TABS_IN_LIMIT) )
             );

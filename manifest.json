@@ -2,7 +2,7 @@
     "name": "Tabs Unloader",
     "description": "Unloads the oldest tabs when the count of loaded into memory tabs exceeds the limit set by user",
     "homepage_url": "https://github.com/derejar/tabs_unloader",
-    "version": "1.0",
+    "version": "1.0.1",
     "manifest_version": 2,
     "author": "derejar",
 
