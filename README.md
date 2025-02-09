@@ -1,10 +1,22 @@
 # Tabs Unloader
 ## Description
-A firefox extension designed to improve user's internet surfing experience by producing additional options to browser memory management. User can set up limit of tabs allowed to be loaded into memory simultaneously. When tabs limit is exceeded then extension automatically unloads oldest tabs from the memory until tabs count fits into limit. For the user's convenience, extension provides ability to mark important tabs through browser context menu (opened by right mouse button click on tab in tabs bar) that gurantees they won't be unloaded by extension.  \
+A firefox extension designed to improve user's internet surfing experience by producing additional options to browser memory management. User can set up limit of tabs allowed to be loaded into memory simultaneously. When tabs limit is exceeded then extension automatically unloads oldest tabs from the memory until tabs count fits into limit. For the user's convenience, extension provides ability to mark important tabs through browser context menu (opened by right mouse button click on tab in tabs bar) that gurantees they won't be unloaded by extension. 
 
-Additionally extension provides special page where user can review all tabs they marked and unmark them if necessary.  \
+<p align="center">
+  <image src="https://github.com/user-attachments/assets/a07306ee-f4b2-4394-9ff5-e41d995148b5" alt="tab_marking" height="410"></image>
+</p>
+
+Additionally extension provides special page where user can review all tabs they marked and unmark them if necessary. 
+
+<p align="center">
+  <image src="https://github.com/user-attachments/assets/ed4fd181-bcad-4670-bef3-f2a9a0f22461" alt="marked_tabs_page" width="1280"></image>
+</p>
 
 User can control how the extension unloads tabs by using popup hidden under extension's miniature in browser's toolbar. Popup can be opened by left click on the icon.
+
+<p align="center">
+  <image src="https://github.com/user-attachments/assets/439e8020-de98-4404-a22e-a609a401825f" alt="popup" height="283"></image>
+</p>
 
 These options are available:
 * **Tabs limit** - Every time count of tabs loaded into memory will exceed this number, oldest tabs will be unloaded to satisfy the limit.
