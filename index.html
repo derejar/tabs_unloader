@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>Tabs Unloader</h1>
+<h2>Description</h2>
+<p>A firefox extension designed to improve user's internet surfing experience by producing additional options to browser memory management. User can set up limit of tabs allowed to be loaded into memory simultaneously. When tabs limit is exceeded then extension automatically unloads oldest tabs from the memory until tabs count fits into limit. For the user's convenience, extension provides ability to mark important tabs through browser context menu (opened by right mouse button click on tab in tabs bar) that gurantees they won't be unloaded by extension.</p>
+<p align="center">
+  <image src="https://github.com/user-attachments/assets/a07306ee-f4b2-4394-9ff5-e41d995148b5" alt="tab_marking" height="410"></image>
+</p>
+<p>Additionally extension provides special page where user can review all tabs they marked and unmark them if necessary.</p>
+<p align="center">
+  <image src="https://github.com/user-attachments/assets/ed4fd181-bcad-4670-bef3-f2a9a0f22461" alt="marked_tabs_page" width="1280"></image>
+</p>
+<p>User can control how the extension unloads tabs by using popup hidden under extension's miniature in browser's toolbar. Popup can be opened by left click on the icon.</p>
+<p align="center">
+  <image src="https://github.com/user-attachments/assets/439e8020-de98-4404-a22e-a609a401825f" alt="popup" height="283"></image>
+</p>
+<p>These options are available:</p>
+<ul>
+<li><strong>Tabs limit</strong> - Every time count of tabs loaded into memory will exceed this number, oldest tabs will be unloaded to satisfy the limit.</li>
+<li><strong>Include marked tabs in limit</strong> - If this option is checked, then marked tabs are included into limit user sets in previous options. For example, if user sets tabs limit to 10, has 2 tabs marked and checks this option then maximum 10 tabs can be loaded into memory simultaneously. But if he unchecks the option, then 12 tabs can be loaded into memory in total.</li>
+<li><strong>Allow pinned tabs unloading</strong> - If this option in unchecked, then pinned tabs have the same behaviour as marked tabs.</li>
+<li><strong>Include pinned tabs in limit</strong> - The idea is the same as for &quot;Include marked tabs in limit&quot;, but for pinned tabs. If previous option is checked, then this option is inactive (it still appears in the popup, but has no any effect).</li>
+</ul>
+<h2>Bug report / Feedback</h2>
+<p>If you experience any problems, encounter any bug or just want to give some feedback, you're highly appreciated to do so. You can do it by creating new issue <a href="https://github.com/derejar/tabs_unloader/issues/new?template=Blank+issue">here</a> (you need to have a github account).</p>
+<h2>Documentation</h2>
+<p>Documentation can be found <a href="https://derejar.github.io/tabs_unloader/">here</a>.</p>
+<h2>TODO</h2>
+<ul>
+<li>[ ] Migrate to Manifest V3</li>
+<li>[ ] Add the compatibility with other browsers</li>
+<li>[ ] Upgrade extension's graphics</li>
+<li>[ ] Migrate to event-based architecture</li>
+</ul></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-main.html">main</a></li><li><a href="module-marked_tabs_page.html">marked_tabs_page</a></li><li><a href="module-menu_option.html">menu_option</a></li><li><a href="module-tabs_unloader.html">tabs_unloader</a></li><li><a href="module-tabs_unloader_popup.html">tabs_unloader_popup</a></li><li><a href="module-utilities.html">utilities</a></li></ul><h3>Externals</h3><ul><li><a href="external-Document.html">Document</a></li><li><a href="external-HTMLElement.html">HTMLElement</a></li><li><a href="external-menu.html">menu</a></li><li><a href="external-runtime.html">runtime</a></li><li><a href="external-storage.html">storage</a></li><li><a href="external-tabs.html">tabs</a></li></ul><h3>Events</h3><ul><li><a href="external-Document.html#.event:DOMContentLoaded">DOMContentLoaded</a></li><li><a href="external-HTMLElement.html#.event:change">change</a></li><li><a href="external-HTMLElement.html#.event:click">click</a></li><li><a href="external-HTMLElement.html#.event:submit">submit</a></li><li><a href="external-menu.html#.event:onClicked">onClicked</a></li><li><a href="external-menu.html#.event:onHidden">onHidden</a></li><li><a href="external-menu.html#.event:onShown">onShown</a></li><li><a href="external-runtime.html#.event:onInstalled">onInstalled</a></li><li><a href="external-storage.html#.event:onChange">onChange</a></li><li><a href="external-tabs.html#.event:onCreated">onCreated</a></li><li><a href="external-tabs.html#.event:onUpdated">onUpdated</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.7</a> on Sun Feb 09 2025 16:38:15 GMT+0000 (Coordinated Universal Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
