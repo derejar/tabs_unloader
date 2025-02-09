@@ -1,0 +1,70 @@
+caption {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16pt;
+    background: #D8D8D8;
+    border-bottom: 3px solid white;
+}
+
+table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table thead tr th {
+    font-weight: bold;
+    text-align: middle;
+    border: none;
+    padding: 10px 10px;
+    background: #D8D8D8;
+    font-size: 14pt;
+    border-left: 1px solid #828282;
+    border-right: 1px solid #828282;
+}
+
+table tbody tr td {
+    text-align: left;
+    border: none;
+    padding: 7.5px 10px;
+    font-size: 12pt;
+    vertical-align: middle;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+table tbody tr td button {
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 11pt;
+}
+
+table tbody tr:nth-child(even) {
+    background: #F3F3F3;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+    border-left: none;
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child {
+    border-right: none;
+}
+
+table tbody tr:last-child {
+    border-bottom: 1px solid black;
+}
+
+table thead tr th:nth-child(1),
+table thead tr th:nth-child(2) {
+    width: 40%;
+}
+
+table thead tr th:nth-child(3),
+table thead tr th:nth-child(4) {
+    width: 5%;
+}

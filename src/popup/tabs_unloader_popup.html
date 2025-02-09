@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <link href="tabs_unloader_popup.css" rel="stylesheet" />
+    <label>Tabs active: <output class="tabs_active">0</output></label>
+    <hr />
+    <form class="settings">
+        <p class="option">
+            <label class="option label">
+                <span>Tabs limit:</span>
+                <input type="number" class="option input" min=1 max=1000 required />
+            </label>
+        </p>
+        <p class="option">
+            <label class="option label">
+                <span>Include marked tabs in limit:</span>
+                <input type="checkbox" class="option input" />
+            </label>
+        </p>
+        <p class="option">
+            <label class="option label">
+                <span>Allow pinned tabs unloading:</span>
+                <input type="checkbox" class="option input allow_pinned_unloading" />
+            </label>
+        </p>
+        <p class="option">
+            <label class="option label">
+                <span>Include pinned tabs in limit:</span>
+                <input type="checkbox" class="option input include_pinned_tabs" />
+            </label>
+        </p>
+        <p>
+            <button type="submit" class="submit_button">Save</button>
+        </p>
+    </form>
+    <hr />
+    <p>
+        <button class="marked_tabs_list_button">Marked tabs list</button>
+    </p>
+
+    <script src="../utilities.js"></script>
+    <script src="tabs_unloader_popup.js"></script>
+</body>
+</html>

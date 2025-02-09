@@ -1,0 +1,21 @@
+html,
+body {
+    width: 300px;
+}
+
+.option.label {
+    display: grid;
+    grid-template-columns: auto min-content;
+    align-items: center;
+}
+
+.submit_button,
+.marked_tabs_list_button {
+    width: 100%;
+}
+
+.option.label:hover {
+    background-color: #cff2f2;
+}
+
+
