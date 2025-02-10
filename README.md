@@ -1,4 +1,6 @@
 # Tabs Unloader
+## Installation
+Extension can be added to firefox [here](https://addons.mozilla.org/ru/firefox/addon/tabs-unloader/).
 ## Description
 A firefox extension designed to improve user's internet surfing experience by producing additional options to browser memory management. User can set up limit of tabs allowed to be loaded into memory simultaneously. When tabs limit is exceeded then extension automatically unloads oldest tabs from the memory until tabs count fits into limit. For the user's convenience, extension provides ability to mark important tabs through browser context menu (opened by right mouse button click on tab in tabs bar) that gurantees they won't be unloaded by extension. 
 
